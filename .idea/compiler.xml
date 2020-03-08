@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="labs-spring-boot-grpc-api" />
+        <module name="labs-spring-boot-grpc-client" />
+        <module name="labs-spring-boot-grpc-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="labs-spring-boot-grpc" target="1.8" />
+      <module name="labs-spring-boot-grpc-api" target="1.8" />
+      <module name="labs-spring-boot-grpc-client" target="1.8" />
+      <module name="labs-spring-boot-grpc-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

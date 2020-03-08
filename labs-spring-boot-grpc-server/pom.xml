@@ -11,5 +11,15 @@
 
     <artifactId>labs-spring-boot-grpc-server</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>io.grpc</groupId>
+            <artifactId>grpc-all</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>info.xpanda.labs</groupId>
+            <artifactId>labs-spring-boot-grpc-api</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
